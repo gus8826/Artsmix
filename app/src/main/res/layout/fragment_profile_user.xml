@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_color_2"
+    tools:context=".Layouts.MenuMain.Perfil.ProfileUserFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewProfileUser"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:contentDescription="@string/todo"
+                android:elevation="3dp"
+                android:src="@mipmap/ic_logo_icon_artmix" />
+
+            <TextView
+                android:id="@+id/textViewNameProfileUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="@string/nav_header_title"
+                android:textColor="@color/Grey100"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewEmailProfileUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="@string/nav_header_subtitle"
+                android:textColor="@color/BlueGrey100"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonEditProfileUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:background="@drawable/grey_100_backfround_with_round_borders"
+                android:text="@string/text_string_67" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayoutProfileUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                app:tabIconTint="@color/Grey100"
+                app:tabSelectedTextColor="@color/Grey100"
+                app:tabTextColor="@color/Grey100" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPagerProfileUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

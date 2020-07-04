@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu_main">
+
+   <!--fragment pricipal del menu de la app sin  que el usuario tenga iniciada su cuenta-->
+    <fragment
+        android:id="@+id/nav_menu_main"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.MenuMain.MenuMainFragment"
+        android:label="@string/menu_menu_main"
+        tools:layout="@layout/fragment_menu_main">
+        <!--accion de transaccion de fragmentos del menu de la app sin que el usuario tenga iniciada su cuenta-->
+        <!--al fragment de opciones para poder iniciar su session -->
+        <action
+            android:id="@+id/action_nav_menu_main_to_login_options_fragment"
+            app:destination="@id/nav_login_options_fragment" />
+
+        <action
+            android:id="@+id/action_nav_menu_main_to_nav_art_details_fragment"
+            app:destination="@id/nav_art_details_fragment" />
+        <action
+            android:id="@+id/action_nav_menu_main_to_nav_arts_comments_fragment"
+            app:destination="@id/nav_arts_comments_fragment" />
+
+    </fragment>
+
+    <!--fragment de opcion es de login para que el usuario inicie su sesion de cuenta-->
+    <fragment
+        android:id="@+id/nav_login_options_fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.Login.LoginOptionsFragment"
+        android:label="fragment_login_options"
+        tools:layout="@layout/fragment_login_options">
+
+        <action
+            android:id="@+id/action_nav_login_options_fragment_to_nav_login_for_email_fragment"
+            app:destination="@id/nav_login_for_email_fragment" />
+        <action
+            android:id="@+id/action_nav_login_options_fragment_to_nav_menu_main"
+            app:destination="@id/nav_menu_main"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_login_for_email_fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.Login.LoginForEmailFragment"
+        android:label="fragment_login_for_email"
+        tools:layout="@layout/fragment_login_for_email">
+
+        <action
+            android:id="@+id/action_nav_login_for_email_fragment_to_nav_login_create_new_account_fragment"
+            app:destination="@id/nav_login_create_new_account_fragment" />
+
+        <action
+            android:id="@+id/action_nav_login_for_email_fragment_to_nav_login_recover_password_fragment"
+            app:destination="@id/nav_login_recover_password_fragment" />
+
+        <action
+            android:id="@+id/action_nav_login_for_email_fragment_to_nav_login_options_fragment"
+            app:destination="@id/nav_login_options_fragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_login_create_new_account_fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.Login.LoginCreateNewAccountFragment"
+        android:label="fragment_login_create_new_account"
+        tools:layout="@layout/fragment_login_create_new_account">
+
+        <action
+            android:id="@+id/action_nav_login_create_new_account_fragment_to_nav_login_for_email_fragment"
+            app:destination="@id/nav_login_for_email_fragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_login_recover_password_fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.Login.LoginRecoverAcountFragment"
+        android:label="fragment_recover_password"
+        tools:layout="@layout/fragment_login_recover_acount">
+
+        <action
+            android:id="@+id/action_nav_login_recover_password_fragment_to_nav_login_for_email_fragment"
+            app:destination="@id/nav_login_for_email_fragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_profile_user_fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.Perfil.ProfileUserFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile_user" >
+
+        <action
+            android:id="@+id/action_nav_profile_user_fragment_to_nav_update_profile_user_fragment"
+            app:destination="@id/nav_update_profile_user_fragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_update_profile_user_fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.Perfil.UserProfile.UpdateProfileUserFragment"
+        android:label="@string/menu_update_profile"
+        tools:layout="@layout/fragment_update_profile_user" >
+
+        <action
+            android:id="@+id/action_nav_update_profile_user_fragment_to_nav_profile_user_fragment"
+            app:destination="@id/nav_profile_user_fragment"
+            app:popUpTo="@id/nav_profile_user_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_art_details_fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.MenuMain.ArtDetailsFragment"
+        android:label="Detalles"
+        tools:layout="@layout/fragment_art_details" >
+        <action
+            android:id="@+id/action_nav_art_details_fragment_to_nav_login_options_fragment"
+            app:destination="@id/nav_login_options_fragment" />
+        <action
+            android:id="@+id/action_nav_art_details_fragment_to_nav_arts_comments_fragment"
+            app:destination="@id/nav_arts_comments_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_arts_comments_fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.MenuMain.ArtsCommentsFragment"
+        android:label="Comentarios"
+        tools:layout="@layout/fragment_arts_comments" />
+
+
+</navigation>

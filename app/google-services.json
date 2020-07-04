@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "628073132638",
+    "firebase_url": "https://creaarte-95659.firebaseio.com",
+    "project_id": "creaarte-95659",
+    "storage_bucket": "creaarte-95659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628073132638:android:fec2fc46ee4a96c913bacf",
+        "android_client_info": {
+          "package_name": "com.creaarte.creaarte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628073132638-n2kqahl11n05i18i7s1uh0698j4q7cti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEBIbd0InAvX3Shy2y8v0hSk_flVBuuRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628073132638-n2kqahl11n05i18i7s1uh0698j4q7cti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

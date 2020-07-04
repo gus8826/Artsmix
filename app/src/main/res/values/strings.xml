@@ -1,0 +1,331 @@
+<resources>
+
+    <string name="app_name">Creaarte</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="facebook_app_id">231451317902996</string>
+    <string name="fb_login_protocol_scheme">fb231451317902996</string>
+
+
+    <string name="title_activity_menu_main">MenuMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Creaarte</string>
+    <string name="nav_header_subtitle">creaarte.creaarte@creaarte.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_menu_main">Comunidad</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_update_profile">Cuenta</string>
+
+    <string name="alert_dialog_update_password">Alerta</string>
+    <string name="dialog_password_update2">¿Estás seguro(a) de actualizar la contraseña de tu cuenta?</string>
+    <string name="dialog_password_update">Nueva Contraseña</string>
+    <string name="dialog_password_update4">Nueva Contraseña</string>
+
+
+    <string name="text_variable_1">Categoría</string>
+    <string name="text_variable_2">descripción de la categoría</string>
+    <string name="text_variable_3">Iniciar Sesión</string>
+    <string name="text_variable_4">Cree, Crea y Explora</string>
+    <string name="text_variable_5">Para aprovechar todas las funciones</string>
+    <string name="text_variable_6">disponibles, continúe con nosotros</string>
+    <string name="text_variable_7">Continuar con Facebook</string>
+    <string name="text_variable_8">Continuar con Google</string>
+    <string name="text_variable_9">Continuar con el e-mail</string>
+    <string name="text_variable_10">0</string>
+    <string name="text_variable_11">X</string>
+    <string name="text_variable_12">Tus detalles</string>
+    <string name="text_variable_13">¡Empecemos! Ingresa tu e-mail/Nickname y contraseña para iniciar sesión.</string>
+    <string name="text_variable_14">E-mail *</string>
+    <string name="text_variable_15">Contraseña</string>
+    <string name="text_variable_16">¿Olvidaste la contraseña?</string>
+    <string name="text_variable_17">Iniciar sesión</string>
+    <string name="text_variable_18">¿Aún no tienes Creearte?</string>
+    <string name="text_variable_19">Crear cuenta nueva</string>
+    <string name="text_variable_20">Categorías</string>
+    <string name="text_variable_21">Comunidad</string>
+    <string name="text_variable_22">Crear cuenta nueva</string>
+    <string name="text_variable_23">Ingresa tus datos para crear una cuenta</string>
+    <string name="text_variable_24">Nickname *</string>
+    <string name="text_variable_25">Nombre(s)</string>
+    <string name="text_variable_26">Apellido Paterno</string>
+    <string name="text_variable_27">Apellido Materno</string>
+    <string name="text_variable_28">Teléfono</string>
+    <string name="text_variable_29">Genero</string>
+    <string name="text_variable_30">Confirmar Cotraseña</string>
+    <string name="text_variable_31">¿Olvidaste la contraseña?</string>
+    <string name="text_variable_32">Proporciona tu correo electrónico registrado y te enviaremos información sobre el modo de restablecer tu cuenta y cambio de contraseña de artzmix.</string>
+    <string name="text_variable_33">Nickname o e-mail</string>
+    <string name="text_variable_34">Recuperar</string>
+    <string name="text_variable_35">Editar</string>
+    <string name="text_variable_36">Dirreción 1</string>
+    <string name="text_variable_37">Dirección 2</string>
+    <string name="text_variable_38">Dirección 3</string>
+    <string name="text_variable_39">Nueva Foto</string>
+    <string name="text_variable_40">Actualizar</string>
+    <string name="text_variable_41">Nueva contraseña</string>
+    <string name="text_variable_42">Proporciona una nueva contraseña diferente a la anterior</string>
+    <string name="text_variable_43">¿Estás seguro(a) de querer actualizar la contraseña de tu cuenta?</string>
+    <string name="text_variable_44">Sí</string>
+    <string name="text_variable_45">No</string>
+    <string name="text_variable_46">HAz actualizado tu contraseña correctamente.</string>
+    <string name="text_variable_47">!Felicitaciones¡</string>
+    <string name="text_variable_48">Haz actualizado tus datos correctamente.</string>
+    <string name="text_variable_49">Haz actualizado tu imagen de perfil correctamente.</string>
+    <string name="text_variable_50">Cancelar</string>
+    <string name="text_variable_51">Aceptar</string>
+    <string name="text_variable_52">Alerta de permisos</string>
+    <string name="text_variable_53">Debe aceptar los permisos para el correcto funcionamiento de la Artzmix</string>
+    <string name="text_variable_54">Elige una opción para actualizar tu foto de perfil</string>
+    <string name="text_variable_55">Te damos la bienvenida a Artzmix tu lugar favorito de arte.</string>
+    <string name="text_variable_56">¡Bienvenido!</string>
+    <string name="text_variable_57">Te hemos enviado un correo para poder recuperar tu cuenta registrada en Artzmix.</string>
+    <string name="text_variable_58">Una vez que cierres sesión tus datos se borraran dentro de artzmix.¿Estas seguro de querer cerrar sesión?</string>
+    <string name="text_variable_59">Se han borrado tus datos correctamente</string>
+    <string name="text_variable_60">Nickname</string>
+    <string name="text_variable_61">Nombre del arte</string>
+    <string name="text_variable_62">Descripción:</string>
+    <string name="text_variable_63">Código de registro:</string>
+    <string name="text_variable_64">Autor:</string>
+    <string name="text_variable_65">Categoría:</string>
+    <string name="text_variable_66">Precio: $</string>
+    <string name="text_variable_67">Me gusta</string>
+    <string name="text_variable_68">Comentar</string>
+    <string name="text_variable_69">Necesitas tener una cuenta registrada en artzmix o si ya la tienes puedes ingresar a ella con tu nicknameo correo, y la contraseña correcta</string>
+    <string name="text_variable_70">Ingresar</string>
+    <string name="text_variable_71">Ignorar</string>
+    <string name="text_variable_72">Te gusta</string>
+    <string name="text_variable_73">Me gusta</string>
+    <string name="text_variable_74">Me gusta</string>
+    <string name="text_variable_75">Me gusta</string>
+    <string name="text_variable_76">Me gusta</string>
+    <string name="text_variable_77">Me gusta</string>
+    <string name="text_variable_78">Me gusta</string>
+    <string name="text_variable_79">Me gusta</string>
+    <string name="text_variable_80">Me gusta</string>
+    <string name="text_variable_81">Me gusta</string>
+    <string name="text_variable_82">Me gusta</string>
+    <string name="text_variable_83">Me gusta</string>
+    <string name="text_variable_84">Me gusta</string>
+    <string name="text_variable_85">Me gusta</string>
+    <string name="text_variable_86">Me gusta</string>
+    <string name="text_variable_87">Me gusta</string>
+    <string name="text_variable_88">Me gusta</string>
+    <string name="text_variable_89">Me gusta</string>
+    <string name="text_variable_90">Me gusta</string>
+
+
+    <string name="text_error_web_servicies_2">Usuario o contraseña incorrectos</string>
+    <string name="text_error_web_servicies_3">El correo electronico es invalido</string>
+    <string name="text_error_web_servicies_4">El correo electronico está vacío</string>
+    <string name="text_error_web_servicies_5">La contraseña está vacía</string>
+    <string name="text_error_web_servicies_6">El id de facebook está vacío</string>
+    <string name="text_error_web_servicies_7">La cuenta está bloqueada</string>
+    <string name="text_error_web_servicies_8">El campo nombre está vacío</string>
+    <string name="text_error_web_servicies_9">El campo apellido paterno está vacío</string>
+    <string name="text_error_web_servicies_10">El campo apellido materno está vacío</string>
+    <string name="text_error_web_servicies_11">El campo género está vacío</string>
+    <string name="text_error_web_servicies_12">El campo telefono está vacío</string>
+    <string name="text_error_web_servicies_13">El campo tipo de usuario está vacío</string>
+    <string name="text_error_web_servicies_14">El campo dirección ip está vacío</string>
+    <string name="text_error_web_servicies_15">El campo id de facebook está vacío</string>
+    <string name="text_error_web_servicies_16">No se pudo iniciar sesión con facebook</string>
+    <string name="text_error_web_servicies_17">El campo nickname està vacío</string>
+    <string name="text_error_web_servicies_18">Las contraseñas deben ser iguales</string>
+    <string name="text_error_web_servicies_19">No se pudo crear el usuario</string>
+    <string name="text_error_web_servicies_20">El nickName ya existe</string>
+    <string name="text_error_web_servicies_21">El correo ya existe</string>
+    <string name="text_error_web_servicies_22">El campo id del usuario está vacío </string>
+    <string name="text_error_web_servicies_23">El campo confirmación de contraseña está vacío</string>
+    <string name="text_error_web_servicies_24">El campo número de registros está vacío </string>
+    <string name="text_error_web_servicies_25">El campo descripción está vacío </string>
+    <string name="text_error_web_servicies_26">EL usuario no existe</string>
+    <string name="text_error_web_servicies_27">La contraseña es incorrecta</string>
+    <string name="text_error_web_servicies_28">La categoría ya existe</string>
+    <string name="text_error_web_servicies_29">El campo id de la categoría está vacío </string>
+    <string name="text_error_web_servicies_30">No se encontraron registros </string>
+    <string name="text_error_web_servicies_31">El campo disponible está vacío </string>
+    <string name="text_error_web_servicies_32">El campo id de google está vacío </string>
+    <string name="text_error_web_servicies_33">No se pudo iniciar sesión con google</string>
+    <string name="text_error_web_servicies_34">El campo tipo de moneda está vacío</string>
+    <string name="text_error_web_servicies_35">El campo tipo de moneda está vacío</string>
+    <string name="text_error_web_servicies_36">Ya tienes un articulo con ese nombre</string>
+    <string name="text_error_web_servicies_37">Elige un precio adecuado para tu producto</string>
+    <string name="text_error_web_servicies_38">El campo id del articulo está vacío</string>
+    <string name="text_error_web_servicies_39">El campo reacción está vacío</string>
+    <string name="text_error_web_servicies_40">El campo comentario está vacío</string>
+    <string name="text_error_web_servicies_41">El género ya exíste</string>
+    <string name="text_error_web_servicies_42">El campo id del género ya exíste</string>
+    <string name="text_error_web_servicies_43"></string>
+    <string name="text_error_web_servicies_44"></string>
+    <string name="text_error_web_servicies_45"></string>
+    <string name="text_error_web_servicies_46"></string>
+    <string name="text_error_web_servicies_47"></string>
+    <string name="text_error_web_servicies_48"></string>
+    <string name="text_error_web_servicies_49"></string>
+    <string name="text_error_web_servicies_50"></string>
+    <string name="text_error_web_servicies_51"></string>
+    <string name="text_error_web_servicies_52"></string>
+    <string name="text_error_web_servicies_53"></string>
+    <string name="text_error_web_servicies_54"></string>
+    <string name="text_error_web_servicies_55"></string>
+    <string name="text_error_web_servicies_56"></string>
+    <string name="text_error_web_servicies_57"></string>
+    <string name="text_error_web_servicies_58"></string>
+    <string name="text_error_web_servicies_59"></string>
+    <string name="text_error_web_servicies_60"></string>
+    <string name="text_error_web_servicies_61"></string>
+    <string name="text_error_web_servicies_62"></string>
+    <string name="text_error_web_servicies_63"></string>
+    <string name="text_error_web_servicies_64"></string>
+    <string name="text_error_web_servicies_65"></string>
+    <string name="text_error_web_servicies_66"></string>
+    <string name="text_error_web_servicies_67"></string>
+    <string name="text_error_web_servicies_68"></string>
+    <string name="text_error_web_servicies_69"></string>
+    <string name="text_error_web_servicies_70"></string>
+
+    <string name="text_error_5">Hay un error en la conexión de datos.</string>
+    <string name="text_error_6">no inicio session</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_container_menu_login">ContainerMenuLoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="tab_text_1">Favoritos</string>
+    <string name="tab_text_2">Galería</string>
+
+    <string name="text_string_01">Siguiente</string>
+    <string name="text_string_02">Iniciar Artzmix</string>
+    <string name="text_string_03">Saltar</string>
+    <string name="text_string_04">Bienvenido</string>
+    <string name="text_string_05">Artzmix es un espacio</string>
+    <string name="text_string_06">para el arte</string>
+    <string name="text_string_07">Primero México</string>
+    <string name="text_string_08">Después el mundo</string>
+    <string name="text_string_09">Pasea</string>
+    <string name="text_string_10">/</string>
+    <string name="text_string_11">Admira</string>
+    <string name="text_string_12">Sorpréndete con una gran</string>
+    <string name="text_string_13">cantidad de obras de</string>
+    <string name="text_string_14">diversos artistas</string>
+    <string name="text_string_15">Cataloga</string>
+    <string name="text_string_16">Inscribe</string>
+    <string name="text_string_17">¿Eres artista?</string>
+    <string name="text_string_18">Puedes inscribir y mostrar</string>
+    <string name="text_string_19">tus trabajos sin costo</string>
+    <string name="text_string_20">Pasea</string>
+    <string name="text_string_21">Admira</string>
+    <string name="text_string_22">Apoya las creaciones de</string>
+    <string name="text_string_23">tus artistas favoritos</string>
+    <string name="text_string_24">promueve las</string>
+    <string name="text_string_25">mejores obras</string>
+    <string name="text_string_26">Vende</string>
+    <string name="text_string_27">Adquier</string>
+    <string name="text_string_28">Vende tu arte</string>
+    <string name="text_string_29">de manera remota</string>
+    <string name="text_string_30">Adquiere obras y</string>
+    <string name="text_string_31">promueve artistas</string>
+    <string name="text_string_32">Todos salen beneficiados</string>
+    <string name="text_string_33">Visita</string>
+    <string name="text_string_34">Reconoce</string>
+    <string name="text_string_35">Visita collecciones de</string>
+    <string name="text_string_36">manera virtual</string>
+    <string name="text_string_37">todo el año</string>
+    <string name="text_string_38">y en cualquier horario</string>
+    <string name="text_string_39">Categoría</string>
+    <string name="text_string_40">Volver a intentarlo</string>
+    <string name="text_string_41">Cree, Crea y Explora</string>
+    <string name="text_string_42">Para aprovechar todas las funciones</string>
+    <string name="text_string_43">disponibles, continúe con nosotros.</string>
+    <string name="text_string_44">Continuar con Facebook</string>
+    <string name="text_string_45">Continuar con Google</string>
+    <string name="text_string_46">O</string>
+    <string name="text_string_47">Tus detalles</string>
+    <string name="text_string_48">¡Empecemos! Ingresa tu e-mail/Nickname y contraseña para iniciar sesión.</string>
+    <string name="text_string_49">Nickname o e-mail</string>
+    <string name="text_string_50">Contraseña</string>
+    <string name="text_string_51">¿Olvidaste la contraseña?</string>
+    <string name="text_string_52">Iniciar sesión</string>
+    <string name="text_string_53">¿Aún no tienes Artzmix?</string>
+    <string name="text_string_54">¡Bienvenido!</string>
+    <string name="text_string_55">Te damos la bienvenida a Artzmix tu lugar favorito de arte.</string>
+    <string name="text_string_56">Crear cuenta nueva</string>
+    <string name="text_string_57">Ingresa tus datos para crear una cuenta</string>
+    <string name="text_string_58">Nickname *</string>
+    <string name="text_string_59">E-mail *</string>
+    <string name="text_string_60">Teléfono</string>
+    <string name="text_string_61">Confirmar Cotraseña</string>
+    <string name="text_string_62">Proporciona tu correo electrónico registrado y te enviaremos información sobre el modo de restablecer tu cuenta y cambio de contraseña de artzmix</string>
+    <string name="text_string_63">E-mail</string>
+    <string name="text_string_64">Recuperar</string>
+    <string name="text_string_65">!Felicitaciones¡</string>
+    <string name="text_string_66">Te hemos enviado un e-mail con los pasos para poder recuperar tu cuenta registrada en Artzmix.</string>
+    <string name="text_string_67">Editar</string>
+    <string name="text_string_68">Alerta</string>
+    <string name="text_string_69">Una vez que haceptes tus datos se actualizaran. ¿Estás seguro(a) de querer actualizar tu datos de tu cuenta?.</string>
+    <string name="text_string_70">Sí</string>
+    <string name="text_string_71">No</string>
+    <string name="text_string_72">Nueva Foto</string>
+    <string name="text_string_73">Nombre(s)</string>
+    <string name="text_string_74">Apellido Paterno</string>
+    <string name="text_string_75">Apellido Materno</string>
+    <string name="text_string_76">Teléfono</string>
+    <string name="text_string_77">Dirreción 1</string>
+    <string name="text_string_78">Dirreción 1</string>
+    <string name="text_string_79">Dirreción 1</string>
+    <string name="text_string_80">Actualizar</string>
+    <string name="text_string_81">Nueva contraseña</string>
+    <string name="text_string_82">Elige una opción para actualizar tu foto de perfil</string>
+    <string name="text_string_83">Tomar foto</string>
+    <string name="text_string_84">Elegir de galería</string>
+    <string name="text_string_85">Cancelar</string>
+    <string name="text_string_86">Selecciona app de imagen</string>
+    <string name="text_string_87">Aceptar</string>
+    <string name="text_string_88">Debe aceptar los permisos para el correcto funcionamiento de la Artzmix</string>
+    <string name="text_string_89"></string>
+    <string name="text_string_90"></string>
+    <string name="text_string_91"></string>
+    <string name="text_string_92"></string>
+    <string name="text_string_93"></string>
+    <string name="text_string_94"></string>
+    <string name="text_string_95"></string>
+    <string name="text_string_96"></string>
+    <string name="text_string_97"></string>
+    <string name="text_string_98"></string>
+    <string name="text_string_99"></string>
+    <string name="text_string_100"></string>
+    <string name="text_string_101"></string>
+
+    <string name="text_error_1">Se ha producido un error de comunicación.</string>
+    <string name="text_error_2">Inténtalo de nuevo más tarde.</string>
+    <string name="text_error_3">El campo e-mail o nickname está vacío</string>
+    <string name="text_error_4">Se ha producido un error de comunicación</string>
+
+
+
+
+
+    <!-- Conjunto de Strings para el View GameSpinner -->
+    <string-array name="gender">
+        <item>Mujer</item>
+        <item>Hombre</item>
+        <item>Otro</item>
+    </string-array>
+
+</resources>
