@@ -52,7 +52,7 @@ public class LoginRecoverAcountFragment extends Fragment implements View.OnClick
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        view.findViewById(R.id.buttonClosedLoginRecoverAcount).setOnClickListener(this);
+        //view.findViewById(R.id.buttonClosedLoginRecoverAcount).setOnClickListener(this);
         view.findViewById(R.id.buttonRecoverPasswordLoginRecoverAcount).setOnClickListener(this);
         view.findViewById(R.id.linearLayoutScrollLoginRecoverAcount).setOnClickListener(this);
         view.findViewById(R.id.frameLayoutLoginRecoverAcount).setOnClickListener(this);
@@ -62,9 +62,9 @@ public class LoginRecoverAcountFragment extends Fragment implements View.OnClick
     public void onClick(View v) {
         switch (v.getId()) {
 
-            case R.id.buttonClosedLoginRecoverAcount:
+            /*case R.id.buttonClosedLoginRecoverAcount:
                 Navigation.findNavController(v).navigate(R.id.action_nav_login_recover_password_fragment_to_nav_login_for_email_fragment);
-                break;
+                break;*/
 
             case R.id.buttonRecoverPasswordLoginRecoverAcount:
                 if (!appCreaarte.validateNullEdtTxt(Objects.requireNonNull(textInputEditTextEmailLoginRecoverAcount.getText()).toString().trim())) {

@@ -9,15 +9,18 @@ import android.widget.TextView;
 
 import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.creaarte.creaarte.Controllers.AppCreaarte;
 import com.creaarte.creaarte.Layouts.MenuMain.MenuMain.CellItemMainCategoriesAdapter;
 import com.creaarte.creaarte.Models.ItemCategory;
 import com.creaarte.creaarte.Models.ItemError;
 import com.creaarte.creaarte.R;
 import com.creaarte.creaarte.WebService.WebServiceClient;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

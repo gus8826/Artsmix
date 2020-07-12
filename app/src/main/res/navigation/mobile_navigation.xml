@@ -24,6 +24,12 @@
         <action
             android:id="@+id/action_nav_menu_main_to_nav_arts_comments_fragment"
             app:destination="@id/nav_arts_comments_fragment" />
+        <action
+            android:id="@+id/action_nav_menu_main_to_nav_profile_user_fragment"
+            app:destination="@id/nav_profile_user_fragment" />
+        <action
+            android:id="@+id/action_nav_menu_main_to_nav_blank_Fragment"
+            app:destination="@id/nav_blank_Fragment" />
 
     </fragment>
 
@@ -37,10 +43,6 @@
         <action
             android:id="@+id/action_nav_login_options_fragment_to_nav_login_for_email_fragment"
             app:destination="@id/nav_login_for_email_fragment" />
-        <action
-            android:id="@+id/action_nav_login_options_fragment_to_nav_menu_main"
-            app:destination="@id/nav_menu_main"
-            app:popUpToInclusive="true" />
 
     </fragment>
 
@@ -58,37 +60,22 @@
             android:id="@+id/action_nav_login_for_email_fragment_to_nav_login_recover_password_fragment"
             app:destination="@id/nav_login_recover_password_fragment" />
 
-        <action
-            android:id="@+id/action_nav_login_for_email_fragment_to_nav_login_options_fragment"
-            app:destination="@id/nav_login_options_fragment"
-            app:popUpToInclusive="true" />
-
     </fragment>
 
     <fragment
         android:id="@+id/nav_login_create_new_account_fragment"
         android:name="com.creaarte.creaarte.Layouts.MenuMain.Login.LoginCreateNewAccountFragment"
         android:label="fragment_login_create_new_account"
-        tools:layout="@layout/fragment_login_create_new_account">
-
-        <action
-            android:id="@+id/action_nav_login_create_new_account_fragment_to_nav_login_for_email_fragment"
-            app:destination="@id/nav_login_for_email_fragment"
-            app:popUpToInclusive="true" />
-
-    </fragment>
+        tools:layout="@layout/fragment_login_create_new_account"/>
 
     <fragment
         android:id="@+id/nav_login_recover_password_fragment"
         android:name="com.creaarte.creaarte.Layouts.MenuMain.Login.LoginRecoverAcountFragment"
         android:label="fragment_recover_password"
         tools:layout="@layout/fragment_login_recover_acount">
-
         <action
             android:id="@+id/action_nav_login_recover_password_fragment_to_nav_login_for_email_fragment"
-            app:destination="@id/nav_login_for_email_fragment"
-            app:popUpToInclusive="true" />
-
+            app:destination="@id/nav_login_for_email_fragment" />
     </fragment>
 
     <fragment
@@ -146,6 +133,11 @@
         android:name="com.creaarte.creaarte.Layouts.MenuMain.MenuMain.ArtsCommentsFragment"
         android:label="Comentarios"
         tools:layout="@layout/fragment_arts_comments" />
+    <fragment
+        android:id="@+id/nav_blank_Fragment"
+        android:name="com.creaarte.creaarte.Layouts.MenuMain.BlankFragment"
+        android:label=""
+        tools:layout="@layout/fragment_blank" />
 
 
 </navigation>

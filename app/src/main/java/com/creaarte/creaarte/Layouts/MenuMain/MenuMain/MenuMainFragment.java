@@ -82,7 +82,7 @@ public class MenuMainFragment extends Fragment {
                         } else if (AppCreaarte.isConnectedMobile(activity)) {
                             ipAddress = appCreaarte.getDeviceipMobileData();
                         }
-                        new GetCategoryPag(activity, textViewTitleCategoriesMenuMain, recyclerViewMainCategoriesMenuMain, nestedScrollViewMenuMain).execute("20", "1", ipAddress, tableLoginUserInfo.getUSRL_id(), "0");
+                        new GetCategoryPag(activity, textViewTitleCategoriesMenuMain, recyclerViewMainCategoriesMenuMain, nestedScrollViewMenuMain).execute("100", "0", ipAddress, tableLoginUserInfo.getUSRL_id(), "0");
                         new GetArticlePag(activity, textViewTitleArtsMenuMain, recyclerViewMainArtsMenuMain, nestedScrollViewMenuMain).execute("20", "1", ipAddress, tableLoginUserInfo.getUSRL_id());
                     } else {
                         activity.runOnUiThread(() -> {

@@ -73,7 +73,7 @@ public class ContainerMenuMainActivity extends AppCompatActivity implements View
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
+        /*navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
             @Override
             public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
                 if (destination.getId() == R.id.nav_login_options_fragment) {
@@ -88,7 +88,7 @@ public class ContainerMenuMainActivity extends AppCompatActivity implements View
                     toolbar.setVisibility(View.VISIBLE);
                 }
             }
-        });
+        });*/
 
         View mParent = navigationView.getHeaderView(0);
 

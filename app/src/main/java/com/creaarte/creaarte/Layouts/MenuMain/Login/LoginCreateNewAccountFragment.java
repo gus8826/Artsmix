@@ -66,7 +66,7 @@ public class LoginCreateNewAccountFragment extends Fragment implements View.OnCl
         super.onViewCreated(view, savedInstanceState);
         view.findViewById(R.id.frameLayoutLoginCreateNewAccount).setOnClickListener(this);
         view.findViewById(R.id.linearLayoutLoginCreateNewAccount).setOnClickListener(this);
-        view.findViewById(R.id.buttonClosedLoginCreateNewAccount).setOnClickListener(this);
+        //view.findViewById(R.id.buttonClosedLoginCreateNewAccount).setOnClickListener(this);
         view.findViewById(R.id.buttonLoginCreateNewAccount).setOnClickListener(this);
     }
 
@@ -82,10 +82,10 @@ public class LoginCreateNewAccountFragment extends Fragment implements View.OnCl
                 appCreaarte.hideTheKeyboard(activity, textInputEditTextConfirmPasswordLoginCreateNewAccount);
                 break;
 
-            case R.id.buttonClosedLoginCreateNewAccount:
+  /*          case R.id.buttonClosedLoginCreateNewAccount:
                 Navigation.findNavController(v).navigate(R.id.action_nav_login_create_new_account_fragment_to_nav_login_for_email_fragment);
                 break;
-
+*/
             case R.id.buttonLoginCreateNewAccount:
                 if (!appCreaarte.validateNullEdtTxt(Objects.requireNonNull(textInputEditTextNickNameLoginCreateNewAccount.getText()).toString())) {
                     textInputEditTextNickNameLoginCreateNewAccount.setError(getString(R.string.text_error_web_servicies_8));

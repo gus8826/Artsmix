@@ -1,12 +1,14 @@
 package com.creaarte.creaarte.Models;
 
-public class ItemCategory {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class ItemCategory implements Parcelable {
 
     private String idCategoria;
     private String nameCategory;
     private int imgCategory;
     private String descripcion;
-
     private String CATG_id;
     private String CATG_name;
     private String CATG_desc;
@@ -168,4 +170,61 @@ public class ItemCategory {
         this.page = page;
     }
 
+    protected ItemCategory(Parcel in) {
+        idCategoria = in.readString();
+        nameCategory = in.readString();
+        imgCategory = in.readInt();
+        descripcion = in.readString();
+        CATG_id = in.readString();
+        CATG_name = in.readString();
+        CATG_desc = in.readString();
+        CATG_cat_id = in.readString();
+        CATG_img = in.readString();
+        CATG_dt_crea = in.readString();
+        CATG_dt_modf = in.readString();
+        USRL_qualif_out_nmbr = in.readString();
+        CATG_s = in.readString();
+        CATG_c = in.readString();
+        numItems = in.readString();
+        totalPage = in.readString();
+        page = in.readString();
+    }
+
+    public static final Creator<ItemCategory> CREATOR = new Creator<ItemCategory>() {
+        @Override
+        public ItemCategory createFromParcel(Parcel in) {
+            return new ItemCategory(in);
+        }
+
+        @Override
+        public ItemCategory[] newArray(int size) {
+            return new ItemCategory[size];
+        }
+    };
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(idCategoria);
+        dest.writeString(nameCategory);
+        dest.writeInt(imgCategory);
+        dest.writeString(descripcion);
+        dest.writeString(CATG_id);
+        dest.writeString(CATG_name);
+        dest.writeString(CATG_desc);
+        dest.writeString(CATG_cat_id);
+        dest.writeString(CATG_img);
+        dest.writeString(CATG_dt_crea);
+        dest.writeString(CATG_dt_modf);
+        dest.writeString(USRL_qualif_out_nmbr);
+        dest.writeString(CATG_s);
+        dest.writeString(CATG_c);
+        dest.writeString(numItems);
+        dest.writeString(totalPage);
+        dest.writeString(page);
+    }
 }

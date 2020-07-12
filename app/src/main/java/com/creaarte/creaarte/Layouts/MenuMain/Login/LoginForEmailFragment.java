@@ -2,16 +2,19 @@ package com.creaarte.creaarte.Layouts.MenuMain.Login;
 
 import android.app.Activity;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
+
 import com.creaarte.creaarte.Controllers.AppCreaarte;
 import com.creaarte.creaarte.R;
 import com.creaarte.creaarte.WebService.Sets.SetLogin;
 import com.google.android.material.textfield.TextInputEditText;
+
 import java.util.Objects;
 
 public class LoginForEmailFragment extends Fragment implements View.OnClickListener {
@@ -69,16 +72,16 @@ public class LoginForEmailFragment extends Fragment implements View.OnClickListe
         view.findViewById(R.id.buttonCreateNewAccountLoginForEmail).setOnClickListener(this);
         view.findViewById(R.id.frameLayoutLoginForEmail).setOnClickListener(this);
         view.findViewById(R.id.linearLayoutScrollLoginForEmail).setOnClickListener(this);
-        view.findViewById(R.id.buttonClosedLoginForEmail).setOnClickListener(this);
+        //view.findViewById(R.id.buttonClosedLoginForEmail).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
 
-            case R.id.buttonClosedLoginForEmail:
+           /* case R.id.buttonClosedLoginForEmail:
                 Navigation.findNavController(v).navigate(R.id.action_nav_login_for_email_fragment_to_nav_login_options_fragment);
-                break;
+                break;*/
 
             case R.id.linearLayoutScrollLoginForEmail:
             case R.id.frameLayoutLoginForEmail:

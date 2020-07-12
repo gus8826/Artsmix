@@ -3,18 +3,18 @@ package com.creaarte.creaarte.Layouts.MenuMain.Login;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
 import com.creaarte.creaarte.Controllers.AppCreaarte;
+import com.creaarte.creaarte.R;
 import com.creaarte.creaarte.WebService.Sets.SetLoginFacebook;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
@@ -22,7 +22,6 @@ import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
-import com.creaarte.creaarte.R;
 import com.facebook.HttpMethod;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
@@ -109,7 +108,7 @@ public class LoginOptionsFragment extends Fragment implements View.OnClickListen
     @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        view.findViewById(R.id.buttonClosedLoginOptions).setOnClickListener(this);
+        //view.findViewById(R.id.buttonClosedLoginOptions).setOnClickListener(this);
         view.findViewById(R.id.buttonFacebookLoginOptions).setOnClickListener(this);
         view.findViewById(R.id.buttonGoogleLoginOptions).setOnClickListener(this);
         view.findViewById(R.id.buttonEmailLoginOptions).setOnClickListener(this);
@@ -119,9 +118,9 @@ public class LoginOptionsFragment extends Fragment implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
 
-            case R.id.buttonClosedLoginOptions:
+            /*case R.id.buttonClosedLoginOptions:
                 Navigation.findNavController(v).navigate(R.id.action_nav_login_options_fragment_to_nav_menu_main);
-                break;
+                break;*/
 
             case R.id.buttonFacebookLoginOptions:
                 loginButtonFacebook.performClick();

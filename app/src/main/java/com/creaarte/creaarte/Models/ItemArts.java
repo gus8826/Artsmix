@@ -27,6 +27,7 @@ public class ItemArts implements Parcelable {
     private String ARTW_comm;
     private String ARTW_reac;
     private String ARTW_reac_flag;
+    private String ARTW_qualif;
     private String CURR_id;
     private String CURR_desc;
     private String ARTW_pop;
@@ -39,51 +40,6 @@ public class ItemArts implements Parcelable {
     public ItemArts() {
 
     }
-
-    protected ItemArts(Parcel in) {
-        ARTW_id = in.readString();
-        USRL_id = in.readString();
-        USRL_alias = in.readString();
-        USRL_name = in.readString();
-        USRL_img_url = in.readString();
-        ARTW_name = in.readString();
-        ARTW_sku = in.readString();
-        ARTW_desc = in.readString();
-        ARTW_img = in.readString();
-        CATG_id = in.readString();
-        CATG_name = in.readString();
-        ARTW_avail = in.readString();
-        ARTW_dt_crea = in.readString();
-        ARTW_dt_modf = in.readString();
-        ARTW_tax1 = in.readString();
-        ARTW_tax2 = in.readString();
-        ARTW_tax3 = in.readString();
-        ARTW_cost = in.readString();
-        ARTW_price = in.readString();
-        ARTW_comm = in.readString();
-        ARTW_reac = in.readString();
-        ARTW_reac_flag = in.readString();
-        CURR_id = in.readString();
-        CURR_desc = in.readString();
-        ARTW_pop = in.readString();
-        ARTW_grade_number = in.readString();
-        ARTW_grade_avg = in.readString();
-        numItems = in.readString();
-        totalPage = in.readString();
-        page = in.readString();
-    }
-
-    public static final Creator<ItemArts> CREATOR = new Creator<ItemArts>() {
-        @Override
-        public ItemArts createFromParcel(Parcel in) {
-            return new ItemArts(in);
-        }
-
-        @Override
-        public ItemArts[] newArray(int size) {
-            return new ItemArts[size];
-        }
-    };
 
     public String getARTW_id() {
         return ARTW_id;
@@ -261,6 +217,14 @@ public class ItemArts implements Parcelable {
         this.ARTW_reac_flag = ARTW_reac_flag;
     }
 
+    public String getARTW_qualif() {
+        return ARTW_qualif;
+    }
+
+    public void setARTW_qualif(String ARTW_qualif) {
+        this.ARTW_qualif = ARTW_qualif;
+    }
+
     public String getCURR_id() {
         return CURR_id;
     }
@@ -325,6 +289,52 @@ public class ItemArts implements Parcelable {
         this.page = page;
     }
 
+    protected ItemArts(Parcel in) {
+        ARTW_id = in.readString();
+        USRL_id = in.readString();
+        USRL_alias = in.readString();
+        USRL_name = in.readString();
+        USRL_img_url = in.readString();
+        ARTW_name = in.readString();
+        ARTW_sku = in.readString();
+        ARTW_desc = in.readString();
+        ARTW_img = in.readString();
+        CATG_id = in.readString();
+        CATG_name = in.readString();
+        ARTW_avail = in.readString();
+        ARTW_dt_crea = in.readString();
+        ARTW_dt_modf = in.readString();
+        ARTW_tax1 = in.readString();
+        ARTW_tax2 = in.readString();
+        ARTW_tax3 = in.readString();
+        ARTW_cost = in.readString();
+        ARTW_price = in.readString();
+        ARTW_comm = in.readString();
+        ARTW_reac = in.readString();
+        ARTW_reac_flag = in.readString();
+        ARTW_qualif = in.readString();
+        CURR_id = in.readString();
+        CURR_desc = in.readString();
+        ARTW_pop = in.readString();
+        ARTW_grade_number = in.readString();
+        ARTW_grade_avg = in.readString();
+        numItems = in.readString();
+        totalPage = in.readString();
+        page = in.readString();
+    }
+
+    public static final Creator<ItemArts> CREATOR = new Creator<ItemArts>() {
+        @Override
+        public ItemArts createFromParcel(Parcel in) {
+            return new ItemArts(in);
+        }
+
+        @Override
+        public ItemArts[] newArray(int size) {
+            return new ItemArts[size];
+        }
+    };
+
     @Override
     public int describeContents() {
         return 0;
@@ -354,6 +364,7 @@ public class ItemArts implements Parcelable {
         dest.writeString(ARTW_comm);
         dest.writeString(ARTW_reac);
         dest.writeString(ARTW_reac_flag);
+        dest.writeString(ARTW_qualif);
         dest.writeString(CURR_id);
         dest.writeString(CURR_desc);
         dest.writeString(ARTW_pop);

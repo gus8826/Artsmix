@@ -1,14 +1,17 @@
 package com.creaarte.creaarte.Layouts.MenuMain.MenuMain;
 
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.creaarte.creaarte.Controllers.AppCreaarte;
@@ -54,15 +57,18 @@ public class CellItemMainCategoriesAdapter extends RecyclerView.Adapter<CellItem
 
         holder.imageViewImageLogoMainCategoriesAdapter.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-
+            public void onClick(View view) {
+                Bundle bundle = new Bundle();
+                bundle.putParcelable("itemCategory", list.get(position));
+                Navigation.findNavController(view).navigate(R.id.action_nav_menu_main_to_nav_blank_Fragment, bundle);
+                Toast.makeText(activity,  list.get(position).getCATG_name(), Toast.LENGTH_SHORT).show();
             }
         });
 
         holder.cardViewMainCategoriesAdapter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Toast.makeText(activity,  list.get(position).getCATG_name(), Toast.LENGTH_SHORT).show();
             }
         });
     }

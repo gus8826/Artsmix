@@ -318,9 +318,6 @@
     <string name="text_error_4">Se ha producido un error de comunicación</string>
 
 
-
-
-
     <!-- Conjunto de Strings para el View GameSpinner -->
     <string-array name="gender">
         <item>Mujer</item>
